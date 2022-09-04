@@ -6,6 +6,7 @@
         public static void GoodDay()
         {
             Console.WriteLine("Have a nice day!");
+            Console.WriteLine("The winter is coming");
         }
 
         public static void Greeting (string name)
