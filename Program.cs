@@ -10,7 +10,10 @@
         
         static void Main(string[] args)
         {
-            Greeting("Vasia");
+            Console.WriteLine("Enter your name");
+            string name = Console.ReadLine();
+            
+            Greeting(name);
         }
     }
 }
