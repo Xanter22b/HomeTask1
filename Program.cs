@@ -2,9 +2,15 @@
 {
     internal class Program
     {
+       
+        public static void Greeting (string name)
+        {
+            Console.WriteLine($"Hello, {name}!");
+        }
+        
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Greeting("Vasia");
         }
     }
 }
